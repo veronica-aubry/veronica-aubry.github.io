@@ -1,3 +1,5 @@
+/** body  **/
+
 .container {
     max-width: 700px;
 }
@@ -8,13 +10,30 @@
 }
 
 
-.profile {
+/** profile **/
+
+
+#profile {
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
 
-.profile img {
+#profile img {
   border-radius: 200px;
   max-width: 40%;
   padding: 10px;
+}
+
+/** projects **/
+
+#projects {
+  padding-top: 40px;
+}
+
+#projects img {
+  padding-bottom: 20px;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
