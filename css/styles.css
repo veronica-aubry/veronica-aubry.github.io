@@ -4,6 +4,11 @@ body {
   background:url("../img/triangles.png")
 }
 
+h2 {
+  text-align: center;
+  background:url("../img/triangles.png")
+}
+
 .container {
     max-width: 700px;
     background-color: white;
@@ -43,8 +48,9 @@ body {
 
 #profile img {
   border-radius: 200px;
-  max-width: 40%;
+  max-width: 30%;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -52,16 +58,30 @@ body {
 
 #projects {
   padding-top: 40px;
+  clear: both;
 }
 
 #projects img {
   padding-bottom: 20px;
 }
 
-#projects h2 {
-    background:url("../img/triangles.png")
-}
-
 .img-responsive {
   max-width: 100%;
 }
+
+/** about **/
+
+ .desc {
+  margin-right: 20px;
+  float: right;
+ }
+
+
+ .titles {
+   text-align: center;
+   font-size: 2em;
+   float: left;
+   margin-left:50px;
+   margin-top: 30px;
+
+ }
