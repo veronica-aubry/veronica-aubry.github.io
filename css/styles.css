@@ -1,18 +1,22 @@
 /** body  **/
 
 body {
-  background:url("../img/triangles.png")
+  background:url("../img/triangles.png");
 }
 
 h2 {
   text-align: center;
-  background:url("../img/triangles.png")
+  background:url("../img/triangles.png");
 }
 
 #nav.container {
   background-color: white;
   max-width: 700px;
   border-radius: 20px;
+}
+
+#nav ul li a {
+  color: #6F7273;
 }
 
 #maincontainer.container {
@@ -31,8 +35,8 @@ a.anchor {
 }
 
 .shadow {
-  color:#d9d9d9;
-  text-shadow:rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 1px 1px 1px;
+  color:#616161;
+  text-shadow:#e0e0e0 1px 1px 0;
 }
 
 .btn {
@@ -64,7 +68,7 @@ a.anchor {
 #profile img {
   border-radius: 200px;
   max-width: 30%;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -91,7 +95,7 @@ a.anchor {
    font-size: 3em;
    padding-top: 40px;
    margin-left: 20%;
-   color: #d9d9d9;
+   color: #6F7273;
  }
 
  .row ul {
@@ -104,3 +108,5 @@ a.anchor {
      margin-left: 2%;
      padding-top: 10px;
  }
+
+ /** media queries **/
