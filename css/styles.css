@@ -1,7 +1,12 @@
 /** body  **/
 
+body {
+  background:url("../img/triangles.png")
+}
+
 .container {
     max-width: 700px;
+    background-color: white;
 }
 
 .shadow {
@@ -27,6 +32,7 @@
 }
 
 
+
 /** profile **/
 
 
@@ -38,8 +44,9 @@
 #profile img {
   border-radius: 200px;
   max-width: 40%;
-  padding: 10px;
+  margin-top: 20px;
 }
+
 
 /** projects **/
 
@@ -49,6 +56,10 @@
 
 #projects img {
   padding-bottom: 20px;
+}
+
+#projects h2 {
+    background:url("../img/triangles.png")
 }
 
 .img-responsive {
