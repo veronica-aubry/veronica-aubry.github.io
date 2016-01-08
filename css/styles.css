@@ -9,6 +9,23 @@
   text-shadow:rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 1px 1px 1px;
 }
 
+.btn {
+  border-radius: 24px;
+}
+
+.btn-primary-outline {
+  border-color: #007299;
+}
+
+.btn-secondary-outline {
+  border-color: #a6a6a6;
+  color: #a6a6a6;
+}
+
+.center-buttons {
+  margin-left: 30%;
+}
+
 
 /** profile **/
 
