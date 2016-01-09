@@ -21,7 +21,7 @@ h2 {
 
 #maincontainer.container {
   margin-top: 10%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   max-width: 700px;
   background-color: white;
   border-radius: 20px;
@@ -62,7 +62,14 @@ a.anchor {
 
 #profile {
   text-align: center;
+  background:url("../img/triangles.png");
   font-family: 'Nunito', sans-serif;
+  max-width: 700px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 13px;
+  margin-bottom: -40px;
+  border-radius: 20px;
 }
 
 #profile img {
@@ -89,6 +96,10 @@ a.anchor {
 }
 
 /** about **/
+
+#about {
+  padding-bottom: 40px;
+}
 
  .glyphicon {
    float: left;
@@ -133,5 +144,5 @@ a.anchor {
        top: -150px;
        visibility: hidden;
    }
-   
+
  }
