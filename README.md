@@ -6,6 +6,8 @@
 
 ## Description
 
+[Link to Github Page](http://veronica-aubry.github.io)
+
 _This site displays four of the projects I made at Epicodus during week one and gives some additional information on me and my interests._
 
 ## Setup/Installation Requirements
